@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b301109953c40c446a3f2973fec87cd6, type: 3}
+  m_Name: Agent_GameKitController_MovementController_Default
+  m_EditorClassIdentifier: 
+  minimumReachDistance: 3
+  normalMovementMultiplier: 0.5
+  fastMovementMultiplier: 1
+  slowMovementMultiplier: 0.2
+  climbSpeed: 1
+  heightOffset: 0
+  maxRotationSpeed: 360
+  CanFly: 0
+  ToFly: 8
+  minimumFlyHeight: 1
+  maximumFlyHeight: 50
