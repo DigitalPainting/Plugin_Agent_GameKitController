@@ -23,7 +23,7 @@ namespace WizardsCode.Agent.GameKitController
             return "playerCharactersManager";
         }
 
-        public override Type GetProfileTypeName()
+        public override Type GetProfileType()
         {
             return typeof(Agent_GameKitController_Profile);
         }
